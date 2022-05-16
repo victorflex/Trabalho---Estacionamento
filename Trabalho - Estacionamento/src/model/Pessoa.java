@@ -11,7 +11,7 @@ public class Pessoa {
 		this.nome = nome;
 	}
 	
-	public String getNome(String nome) {
+	public String getNome() {
 		return nome;
 	}
 	
@@ -19,7 +19,7 @@ public class Pessoa {
 		this.telefone = telefone;
 	}
 	
-	public String getTelefone(String telefone) {
+	public String getTelefone() {
 		return telefone;
 	}
 	
@@ -27,7 +27,7 @@ public class Pessoa {
 		this.email = email;
 	}
 	
-	public String getEmail(String email) {
+	public String getEmail() {
 		return email;
 	}
 	
@@ -38,5 +38,8 @@ public class Pessoa {
 	public int getId(int id) {
 		return id;
 	}
-}
+
+	
+	}
+
 

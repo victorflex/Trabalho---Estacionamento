@@ -31,6 +31,21 @@ public class MenuView {
 				UsuarioView usuario = new UsuarioView();
 				usuario.usuario(null);
 
+			} else if (opcao==2) {
+				TipoVeiculoView  tipoveiculomenu = new TipoVeiculoView();
+				 tipoveiculomenu.tipoveiculomenu(null);
+				 
+			} else if (opcao==3) {
+				VeiculoView veiculomenu = new VeiculoView();
+				veiculomenu.veiculomenu(null);
+				
+			} else if (opcao==4) {
+				PessoaView pessoa = new PessoaView();
+				pessoa.pessoaview(null);
+				
+			} else if (opcao==5) {
+				TipoEstacionamentoView estacionamentomenu = new TipoEstacionamentoView();
+				estacionamentomenu.estacionamento(null);
 			}
 			
 			

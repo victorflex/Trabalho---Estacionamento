@@ -6,8 +6,8 @@ public class Veiculo {
 	private String descricao;
 	private String placa;
 	private String marca;
-	private int ano;
-	private int tipoveiculo;
+	private String ano;
+	private String tipoveiculo;
 	//Fim da declaração de variavel
 	
 	public void setId(int id) {
@@ -43,18 +43,18 @@ public class Veiculo {
 	}
 	
 	
-	public void setAno(int ano) {
+	public void setAno(String ano) {
 		this.ano = ano;
 	}
-	public int getAno() {
+	public String getAno() {
 		return ano;
 	}
 	
 	
-	public void setTipoveiculo(int tipoveiculo) {
+	public void setTipoveiculo(String tipoveiculo) {
 		this.tipoveiculo = tipoveiculo;
 	}
-	public int getTipoveiculo() {
+	public String getTipoveiculo() {
 		return tipoveiculo;
 	}
 
